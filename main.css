@@ -1,0 +1,39 @@
+.container{
+  padding-top: 10px;
+}
+
+.boton_agregar {
+  margin-top: 24px;
+}
+
+.modal {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.load_img {
+  width: 50px;
+}
+
+.error_msg {
+  color: red;
+}
+
+.table_users {
+  max-width: 100%;
+  overflow: scroll;
+}
+
+/* For desktop: */
+.col-6 {width: 50%;}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    padding: 5px;
+  }
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
